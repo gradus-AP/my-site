@@ -1,0 +1,50 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "faq",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "APIが応答していません",
+            "href": "/docs/faq/APIが応答していません",
+            "docId": "faq/APIが応答していません",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "不正なパラメーターです",
+            "href": "/docs/faq/不正なパラメーターです",
+            "docId": "faq/不正なパラメーターです",
+            "unlisted": false
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "faq/APIが応答していません": {
+      "id": "faq/APIが応答していません",
+      "title": "APIが応答していません",
+      "description": "説明",
+      "sidebar": "tutorialSidebar"
+    },
+    "faq/不正なパラメーターです": {
+      "id": "faq/不正なパラメーターです",
+      "title": "不正なパラメーターです",
+      "description": "説明",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}
